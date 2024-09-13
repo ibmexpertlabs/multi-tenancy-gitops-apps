@@ -170,9 +170,9 @@ spec:
         - name: kustomization-path
           value: "$(workspaces.input.path)/gitops-repo/ace/environments/base/kustomization.yaml"
         - name: user-name
-          value: "cicd-acme1"
+          value: "cicd.acme"
         - name: user-email
-          value: "freshagp@yahoo.com"
+          value: "cicd@acme.com"
         - name: user-home
           value: "/root"
         - name: branch_name
